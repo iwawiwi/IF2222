@@ -2,9 +2,9 @@
 
 > **The content of this course changes as technology evolves**, to keep up to date with changes [follow me on GitHub](https://github.com/iwawiwi).
 
-# Jadwal Perkuliahan
-* Semester Genap-2022, Kelas Tatap Muka, <mark>Rabu, 07:00-10:20 WIB</mark>
-* Semester Genap-2022, Kelas Daring, TBA
+# Jadwal Perkuliahan dan Praktikum
+* Semester Genap-2022, Kelas Daring, <mark>Rabu, 07:00-10:20 WIB</mark>
+* Semester Genap-2022, Praktikum, TBA
 
 # Deskripsi Mata Kuliah
 Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradigma pemrograman berorientasi objek (object oriented) menggunakan bahasa pemrograman [Python](https://www.python.org/).
@@ -18,6 +18,10 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 - [Leslie Anggraini]()
 
 # Referensi
+* **Lott, S.F.** and **Phillips, D.** (2021). <ins>*Python Object-Oriented Programming: Build robust and maintainable object-oriented Python applications and libraries*</ins>. 4th Edition. Packt Publishing Ltd. (Buy from [Amazon.com](https://www.amazon.com/Python-Object-Oriented-Programming-maintainable-object-oriented/dp/1801077266))
+* **Lutz, M.** (2013). <ins>*Learning Python*</ins>. 5th Edition. O'Reilly Media
+(Buy from [Amazon.com](https://www.amazon.com/Learning-Python-5th-Mark-Lutz/dp/1449355730))
+* **Matthes, E.** (2019) Python Crash Course: A Hands-On, Project-Based Introduction to Programming. 2nd Edition. No Starch Press (Buy from [Amazon.com](https://www.amazon.com/Python-Crash-Course-2nd-Edition/dp/1593279280))
 <!--
 * Beginning Python: Using Python 2.6 and Python 3.1, 2010, James Payne
 * Python 3 Object Oriented Programming 3rd edition, 2019, Dusty Phillips
@@ -29,10 +33,10 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 
 ## Modul 0: Pengantar Perkuliahan PBO
 
-|Topik Pembahasan|Referensi Penunjang|
+|<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
 |[Kontrak Perkuliahan]()|-|
-|[Slide Materi]()|-|
+|[Slide Materi]()|[Object-oriented Programming in 7 minutes](https://www.youtube.com/watch?v=pTB0EiLXUC8&ab_channel=ProgrammingwithMosh) Youtube|
 
 
 ## Modul 1: Dasar Pemrograman Python
@@ -41,8 +45,7 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
 
-
-|Topik Pembahasan|Referensi Penunjang|
+|<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
 |<ul><li>Sintatik pemrograman<li>Tipe data dasar<li>Tipe data bentukan<li>Operator aritmatika & logika<li>Percabangan (`if`, `if-else`, `if-elif-else`)<li>Perulangan (`for`, `while`)<li>*Casting*<li>Prinsip *mutable* dan *imutable*</ul>|<ul><li>ref 1</ul>
 |[Slide Materi]()||
@@ -52,9 +55,9 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
 
-|Topik Pembahasan|Referensi Penunjang|
+|<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
-|<ul><li>Sub-program (fungsi)<li>Fungsi *built-in* dalam Python<li>Manipulasi file eksternal<li>Modularitas<li>Gaya dan standar pemrograman dalam Python</ul>|<ul><li>ref 1</ul>
+|<ul><li>Sub-program (fungsi)<li>Fungsi *built-in* dalam Python<li>Manipulasi file eksternal<li>Modularitas<li>Gaya dan standar pemrograman dalam Python</ul>|<ul><li>[Python built-in functions](https://docs.python.org/3/library/functions.html) (Berdasarkan versi Python termutakhir)<li>[Case Style: Camel, Pascal, Snake, and Kebab case](https://betterprogramming.pub/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841) (Rekomendasi: buka alamat dalam mode privasi)</ul>
 |[Slide Materi]()||
 
 ## Modul 2: Kelas dan Objek
@@ -63,7 +66,7 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
 
-|Topik Pembahasan|Referensi Penunjang|
+|<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
 |<ul><li>Konsep objek dan kelas dalam Python<li>Konstruktor<li>*Object instance*<li>Modularitas</ul>|<ul><li>ref 1</ul>
 |[Slide Materi]()||
@@ -73,7 +76,7 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
 
-|Topik Pembahasan|Referensi Penunjang|
+|<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
 |<ul><li>Enkapsulasi<li>Visibilitas fungsi dan variabel</ul>|<ul><li>ref 1</ul>
 |[Slide Materi]()||
@@ -84,7 +87,7 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
 
-|Topik Pembahasan|Referensi Penunjang|
+|<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
 |<ul><li>Konsep pewarisan atau *inheritance*<li>*Multiple inheritance* dalam Python<li>Abstraksi</ul>|<ul><li>ref 1</ul>
 |[Slide Materi]()||
@@ -94,7 +97,7 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
 
-|Topik Pembahasan|Referensi Penunjang|
+|<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
 |<ul><li>Konsep polimorfisme dalam Python</ul>|<ul><li>ref 1</ul>
 |[Slide Materi]()||
@@ -104,7 +107,7 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
 
-|Topik Pembahasan|Referensi Penunjang|
+|<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
 |<ul><li>Konsep *overloading*</ul>|<ul><li>ref 1</ul>
 |[Slide Materi]()||
@@ -115,7 +118,7 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
 
-|Topik Pembahasan|Referensi Penunjang|
+|<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
 |<ul><li>Prinsip konkurensi dan multiproses<li>Konsep thread dalam Python<li>`Futures` dan `asyncIO`</ul>|<ul><li>ref 1</ul>
 |[Slide Materi]()||
@@ -126,7 +129,7 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
 
-|Topik Pembahasan|Referensi Penunjang|
+|<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
 |<ul><li>Pengujian program<li>Pengujian otomatis `unit-test`</ul>|<ul><li>ref 1</ul>
 |[Slide Materi]()||
@@ -136,7 +139,7 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
 
-|Topik Pembahasan|Referensi Penunjang|
+|<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
 |<ul><li>UML (Unified Modelling Language)<li>*Class diagram*<li>*Sequence diagram*<li>*Activity diagram*</ul>|<ul><li>ref 1</ul>
 |[Slide Materi]()||
@@ -146,7 +149,7 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
 
-|Topik Pembahasan|Referensi Penunjang|
+|<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
 |<ul><li>Pola desain aplikasi<li>*Strategy pattern*<li>*Observer pattern*<li>*Decorator pattern*<li>*State pattern*<li>*Template pattern*<li>*Singleton pattern*</ul>|<ul><li>ref 1</ul>
 |[Slide Materi]()||
