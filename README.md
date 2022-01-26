@@ -17,11 +17,18 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 - [I Wayan Wiprayoga Wisesa]()
 - [Leslie Anggraini]()
 
+# Komposisi nilai
+UTS : 20% <br />
+Proyek akhir : 30% <br />
+Kuis + Latihan: 20% <br />
+Praktikum: 25% <br />
+Partisipasi: 5% <br />
+
 # Referensi
 * **Lott, S.F.** and **Phillips, D.** (2021). <ins>*Python Object-Oriented Programming: Build robust and maintainable object-oriented Python applications and libraries*</ins>. 4th Edition. Packt Publishing Ltd. (Buy from [Amazon.com](https://www.amazon.com/Python-Object-Oriented-Programming-maintainable-object-oriented/dp/1801077266))
 * **Lutz, M.** (2013). <ins>*Learning Python*</ins>. 5th Edition. O'Reilly Media
 (Buy from [Amazon.com](https://www.amazon.com/Learning-Python-5th-Mark-Lutz/dp/1449355730))
-* **Matthes, E.** (2019) Python Crash Course: A Hands-On, Project-Based Introduction to Programming. 2nd Edition. No Starch Press (Buy from [Amazon.com](https://www.amazon.com/Python-Crash-Course-2nd-Edition/dp/1593279280))
+* **Matthes, E.** (2019). <ins>Python Crash Course: A Hands-On, Project-Based Introduction to Programming</ins>. 2nd Edition. No Starch Press (Buy from [Amazon.com](https://www.amazon.com/Python-Crash-Course-2nd-Edition/dp/1593279280))
 <!--
 * Beginning Python: Using Python 2.6 and Python 3.1, 2010, James Payne
 * Python 3 Object Oriented Programming 3rd edition, 2019, Dusty Phillips
