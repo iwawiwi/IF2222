@@ -10,19 +10,12 @@
 Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradigma pemrograman berorientasi objek (object oriented) menggunakan bahasa pemrograman [Python](https://www.python.org/).
 
 # Tim Pengajar
-- [Muhammad Habib Al Gifari]()
+- [Muhammad Habib Al Gifari](https://github.com/mh4Scripts)
 - [Eko Dwi Nugoho]()
-- [Mugi Praseptiawan]()
+- [Mugi Praseptiawan](https://github.com/mugipraseptiawan)
 - [Daniel Rinaldi]()
-- [I Wayan Wiprayoga Wisesa]()
+- [I Wayan Wiprayoga Wisesa](https://github.com/iwawiwi)
 - [Leslie Anggraini]()
-
-# Komposisi nilai
-UTS : 20% <br />
-Proyek akhir : 30% <br />
-Kuis + Latihan: 20% <br />
-Praktikum: 25% <br />
-Partisipasi: 5% <br />
 
 # Referensi
 * **Lott, S.F.** and **Phillips, D.** (2021). <ins>*Python Object-Oriented Programming: Build robust and maintainable object-oriented Python applications and libraries*</ins>. 4th Edition. Packt Publishing Ltd. (Buy from [Amazon.com](https://www.amazon.com/Python-Object-Oriented-Programming-maintainable-object-oriented/dp/1801077266))
@@ -136,6 +129,7 @@ Partisipasi: 5% <br />
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
 
+<!--
 |<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
 |<ul><li>Pengujian program<li>Pengujian otomatis `unit-test`</ul>|<ul><li>ref 1</ul>
@@ -155,6 +149,7 @@ Partisipasi: 5% <br />
 > **Jadwal**: 13 April 2022 <br/>
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
+-->
 
 |<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
@@ -164,3 +159,10 @@ Partisipasi: 5% <br />
 # Tugas dan Praktikum
 * [Deskripsi Tugas Besar]()
 * [Modul Praktikum]()
+
+# Komposisi nilai
+UTS : 20% <br />
+Proyek akhir : 30% <br />
+Kuis + Latihan: 20% <br />
+Praktikum: 25% <br />
+Partisipasi: 5% <br />
