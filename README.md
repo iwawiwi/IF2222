@@ -32,6 +32,10 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 # Silabus
 
 ## Modul 0: Pengantar Perkuliahan PBO
+> *Pertemuan 1 - Minggu 01* <br/>
+> **Jadwal**: 2 Februari 2022 <br/>
+> **Video Perkuliahan**: [link]() <br />
+> **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
 
 |<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
@@ -40,8 +44,8 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 
 
 ## Modul 1: Dasar Pemrograman Python
-> *Pertemuan 1 - Minggu 01* <br/>
-> **Jadwal**: 2 Februari 2022 <br/>
+> *Pertemuan 2 - Minggu 02* <br/>
+> **Jadwal**: 9 Februari 2022 <br/>
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
 
@@ -50,8 +54,8 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 |<ul><li>Sintatik pemrograman<li>Tipe data dasar<li>Tipe data bentukan<li>Operator aritmatika & logika<li>Percabangan (`if`, `if-else`, `if-elif-else`)<li>Perulangan (`for`, `while`)<li>*Casting*<li>Prinsip *mutable* dan *imutable*</ul>|<ul><li>ref 1</ul>
 |[Slide Materi]()||
 
-> *Pertemuan 2 - Minggu 02* <br/>
-> **Jadwal**: 9 Februari 2022 <br/>
+> *Pertemuan 3 - Minggu 03* <br/>
+> **Jadwal**: 16 Februari 2022 <br/>
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
 
@@ -61,8 +65,8 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 |[Slide Materi]()||
 
 ## Modul 2: Kelas dan Objek
-> *Pertemuan 3 - Minggu 03* <br/>
-> **Jadwal**: 16 Februari 2022 <br/>
+> *Pertemuan 4 - Minggu 04* <br/>
+> **Jadwal**: 23 Februari 2022 <br/>
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
 
@@ -71,8 +75,8 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 |<ul><li>Konsep objek dan kelas dalam Python<li>Konstruktor<li>*Object instance*<li>Modularitas</ul>|<ul><li>ref 1</ul>
 |[Slide Materi]()||
 
-> *Pertemuan 4 - Minggu 04* <br/>
-> **Jadwal**: 23 Februari 2022 <br/>
+> *Pertemuan 5 - Minggu 05* <br/>
+> **Jadwal**: 2 Maret 2022 <br/>
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
 
@@ -82,16 +86,6 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 |[Slide Materi]()||
 
 ## Modul 3: Pewarisan dan Polimorfisme
-> *Pertemuan 5 - Minggu 05* <br/>
-> **Jadwal**: 2 Maret 2022 <br/>
-> **Video Perkuliahan**: [link]() <br />
-> **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
-
-|<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
-|---|---|
-|<ul><li>Konsep pewarisan atau *inheritance*<li>*Multiple inheritance* dalam Python<li>Abstraksi</ul>|<ul><li>ref 1</ul>
-|[Slide Materi]()||
-
 > *Pertemuan 6 - Minggu 06* <br/>
 > **Jadwal**: 9 Maret 2022 <br/>
 > **Video Perkuliahan**: [link]() <br />
@@ -99,7 +93,7 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 
 |<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
-|<ul><li>Konsep polimorfisme dalam Python</ul>|<ul><li>ref 1</ul>
+|<ul><li>Konsep pewarisan atau *inheritance*<li>*Multiple inheritance* dalam Python<li>Abstraksi</ul>|<ul><li>ref 1</ul>
 |[Slide Materi]()||
 
 > *Pertemuan 7 - Minggu 07* <br/>
@@ -109,7 +103,7 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 
 |<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
-|<ul><li>Konsep *overloading*</ul>|<ul><li>ref 1</ul>
+|<ul><li>Konsep polimorfisme dalam Python<li>Konsep *overloading*</ul>|<ul><li>ref 1</ul>
 |[Slide Materi]()||
 
 ## Modul 4: Konkurensi
@@ -156,8 +150,8 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 |<ul><li>Pola desain aplikasi<li>*Strategy pattern*<li>*Observer pattern*<li>*Decorator pattern*<li>*State pattern*<li>*Template pattern*<li>*Singleton pattern*</ul>|<ul><li>ref 1</ul>
 |[Slide Materi]()||
 
-# Tugas dan Praktikum
-* [Deskripsi Tugas Besar]()
+# Proyek Akhir dan Praktikum
+* [Deskripsi Proyek Akhir]()
 * [Modul Praktikum]()
 
 # Komposisi nilai
