@@ -1,6 +1,7 @@
 # Python Fundamentals (5): Fungsi
 
 Cara deklarasi fungsi menggunakan keyword `def`
+
 ```Python
 def faktorial(n): # signature
     # body
@@ -11,6 +12,7 @@ def faktorial(n): # signature
 ```
 
 Deklarasi fungsi dengan *type hints*
+
 ```Python
 def faktorial(n: int) -> int: # signature dengan type-hint
     # body

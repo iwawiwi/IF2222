@@ -1,4 +1,4 @@
-Taken from: [GeeksForGeeks - *args and **kwargs in Python](https://www.geeksforgeeks.org/args-kwargs-python/)
+# Arguments in Python
 
 ## `*args`
 
@@ -10,6 +10,7 @@ The special syntax `*args` in function definitions in python is used to pass a v
 - Using the `*`, the variable that we associate with the `*` becomes an **iterable** meaning you can do things like iterate over it, run some higher-order functions such as map and filter, etc.
 
 Example #1
+
 ```Python
 # Python program to illustrate 
 # *args for variable number of arguments
@@ -19,7 +20,9 @@ def myFun(*argv):
    
 myFun('Hello', 'Welcome', 'to', 'GeeksforGeeks')
 ```
+
 Example #2
+
 ```Python
 # Python program to illustrate 
 # *args for variable number of arguments
@@ -48,3 +51,5 @@ def myFun(**kwargs):
 # Driver code
 myFun(first ='Geeks', mid ='for', last='Geeks')   
 ```
+
+Taken from: [GeeksForGeeks - *args and **kwargs in Python](https://www.geeksforgeeks.org/args-kwargs-python/)

@@ -1,6 +1,7 @@
 # Python Fundamentals (4): Indexing & Slicing
 
 Indexing
+
 ```Python
 s = "INFORMATIK"
 # dua perintah berikut mencetak karakter yang sama dari s
@@ -9,6 +10,7 @@ print(s[-6])    # cetak R
 ```
 
 Slicing
+
 ```Python
 s = "INFORMATIK"
 # dua perintah berikut mencetak karakter yang sama dari s
@@ -17,6 +19,7 @@ print(s[2:])    # cetak FORMATIK
 ```
 
 Operasi String
+
 ```Python
 s = "Among Us"
 
@@ -40,6 +43,7 @@ for c in s:
 ```
 
 Fungsi pada String
+
 ```Python
 s = "Among Us"
 # megubah string menjadi lower case

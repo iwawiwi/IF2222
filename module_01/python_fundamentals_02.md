@@ -1,6 +1,7 @@
 # Python Fundamentals (2): Kondisi
 
 ## Contoh program dengan pengecekan kondisi
+
 ```Python
 passw = input("Masukkan password: ")
 real_passw = "p45sw0rdR4ha51a!"
@@ -12,6 +13,7 @@ else:
 ```
 
 ## Percabangan `IF`
+
 ```Python
 x = input("Masukan nilai x: ")
 if (x >= 0):
@@ -19,6 +21,7 @@ if (x >= 0):
 ```
 
 ## Percabangan `IF-ELSE`
+
 ```Python
 x = input("Masukan nilai x: ")
 if (x >= 0):
@@ -28,6 +31,7 @@ else:
 ```
 
 ## Percabangan `IF-ELIF-ELSE`
+
 ```Python
 x = input("Masukan nilai x: ")
 if (x > 0):
