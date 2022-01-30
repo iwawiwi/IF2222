@@ -2,7 +2,7 @@
 
 ## `*args`
 
-The special syntax `*args` in function definitions in python is used to pass a variable number of arguments to a function. It is used to pass a non-key worded, variable-length argument list. 
+The special syntax `*args` in function definitions in python is used to pass a variable number of arguments to a function. It is used to pass a non-key worded, variable-length argument list.
 
 - The syntax is to use the symbol `*` to take in a variable number of arguments; by convention, it is often used with the word `args`.
 - What `*args` allows you to do is take in more arguments than the number of formal arguments that you previously defined. With `*args`, any number of extra arguments can be tacked on to your current formal parameters (including zero extra arguments).

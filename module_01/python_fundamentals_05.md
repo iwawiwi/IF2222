@@ -21,3 +21,15 @@ def faktorial(n: int) -> int: # signature dengan type-hint
         result *= i
     return result # return value
 ```
+
+Rekursif dalam Python dapat dilakukan seperti berikut:
+
+```Python
+def faktorial(n):
+    if (n <= 1):
+        # kasus basis
+        return 1
+    else:
+        # pemanggilan rekursif
+        return n * faktorial(n-1)
+```
