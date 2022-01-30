@@ -1,6 +1,6 @@
 # Python Fundamentals (1): Variabel dan Tipe Data
 
-## Halo, Gais!
+## Halo, Gais
 
 Program paling sederhana, mencetak ke layar
 
@@ -8,7 +8,7 @@ Program paling sederhana, mencetak ke layar
 print("Halo, Gais!")
 ```
 
-## Halo, `nama`!
+## Halo, `nama`
 
 Program menerima masukan string lalu cetak ke layar sesuai dengan masukan
 
