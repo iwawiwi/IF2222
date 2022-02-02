@@ -4,7 +4,7 @@
 
 ## Jadwal Perkuliahan dan Praktikum
 
-* Semester Genap-2022, Kelas Daring, <mark>Rabu, 07:00-10:20 WIB</mark>
+* Semester Genap-2022, Kelas Daring, **Rabu, 07:00-09:30 WIB**
 * Semester Genap-2022, Praktikum, TBA
 
 ## Deskripsi Mata Kuliah
