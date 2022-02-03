@@ -63,6 +63,8 @@ Operasi lainnya pada kamus
 
 ```Python
 kode_bandara = {"Lampung":"TKG", "Bali":"DPS", "Jakarta":"CGK"} 
+daftar_suara = ["enrinal", "huda", "ivena", "enrinal", "enrinal", "huda”", …]
+
 print(len(kode_bandara)) # 3
 
 # update lebih dari satu kode bandara
@@ -90,3 +92,39 @@ for kota, kode in kode_bandara.items():
   print(kota, "kode bandaranya adalah" , kode)
 ```
 
+<!--
+## Latihan (PR)
+
+```Python
+# 1. Jack's dictionary
+jack = { "name":"Jack Frost",
+         "assignment" : [80, 50, 40, 20],
+         "test" : [75, 75],
+         "lab" : [78.20, 77.20]
+       }
+# 2. James's dictionary
+james = { "name":"James Potter",
+          "assignment" : [82, 56, 44, 30],
+          "test" : [80, 80],
+          "lab" : [67.90, 78.72]
+        }
+# 3. Dylan's dictionary
+dylan = { "name" : "Dylan Rhodes",
+          "assignment" : [77, 82, 23, 39],
+          "test" : [78, 77],
+          "lab" : [80, 80]
+        }  
+# 4. Jessica's dictionary
+jess = { "name" : "Jessica Stone",
+         "assignment" : [67, 55, 77, 21],
+         "test" : [40, 50],
+         "lab" : [69, 44.56]
+       }
+# 5. Tom's dictionary
+tom = { "name" : "Tom Hanks",
+        "assignment" : [29, 89, 60, 56],
+        "test" : [65, 56],
+        "lab" : [50, 40.6]
+      }
+```
+->
