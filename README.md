@@ -41,36 +41,37 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 
 > *Pertemuan 1 - Minggu 01* <br/>
 > **Jadwal**: 2 Februari 2022 <br/>
-> **Video Perkuliahan**: [link]() <br />
-> **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
+> **Slide Materi**: [link](https://itera542-my.sharepoint.com/:b:/g/personal/alyarizkita_itera542_onmicrosoft_com/EZXdQJf3-IlGrOsj60cVsDsB2ltgoH_tEPBpuFbwyZX02w?e=ZVwtNv)<br />
+> **Video Perkuliahan**: [link](https://classroom.google.com/u/0/w/NDYzNTUzOTY1Mjkz) <br />
+> **Refleksi Pembelajaran Mahasiswa**: [link](https://forms.office.com/r/7imKMsgHyz) <br />
 
 |<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
-|[Kontrak Perkuliahan]()|-|
-|[Slide Materi]()|[Object-oriented Programming in 7 minutes](https://www.youtube.com/watch?v=pTB0EiLXUC8&ab_channel=ProgrammingwithMosh) Youtube|
+|<ul><li>Kontrak Perkuliahan<li>Konsep dasar dalam PBO</ul>|[Object-oriented Programming in 7 minutes](https://www.youtube.com/watch?v=pTB0EiLXUC8&ab_channel=ProgrammingwithMosh) Youtube|
 
 ### Modul 1: Dasar Pemrograman Python
 
 > *Pertemuan 2 - Minggu 02* <br/>
 > **Jadwal**: 9 Februari 2022 <br/>
+> **Slide Materi**: [link](https://1drv.ms/b/s!AkmVWKOTJpCNgdxUkUdHj1Ah4ZW4ag?e=eQzqg5)
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
 
 |<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
-|<ul><li>Sintatik pemrograman<li>Tipe data dasar<li>Tipe data bentukan<li>Operator aritmatika & logika<li>Percabangan (`if`, `if-else`, `if-elif-else`)<li>Perulangan (`for`, `while`)<li>*Casting*<li>Prinsip *mutable* dan *imutable*</ul>|<ul><li>ref 1</ul>
-|[Slide Materi]()||
+|<ul><li>Tipe data dasar<li>Operator aritmatika & logika<li>Percabangan (`if`, `if-else`, `if-elif-else`)<li>Perulangan (`for`, `while`)<li>*Indexing* dan *Slicing*<li>Operasi String<li>Fungsi dalam Python</ul>|<ul><li>[Python Operators](https://www.w3schools.com/python/python_operators.asp)<li>[`**args` dan `**kwargs`](https://www.geeksforgeeks.org/args-kwargs-python/)<li>[Python built-in functions](https://docs.python.org/3/library/functions.html) (Berdasarkan versi Python termutakhir)<li>[Case Style: Camel, Pascal, Snake, and Kebab case](https://betterprogramming.pub/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841) (Rekomendasi: buka alamat dalam mode privasi)<li>[Camel Case vs. Snake Case vs. Pascal Case — Naming Conventions](https://khalilstemmler.com/blogs/camel-case-snake-case-pascal-case/)</ul>|
 
 > *Pertemuan 3 - Minggu 03* <br/>
 > **Jadwal**: 16 Februari 2022 <br/>
+> **Slide Materi**: [link](https://1drv.ms/b/s!AkmVWKOTJpCNgdxVwR_BBSaIgALm6w?e=J4zfn5)
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
 
 |<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
-|<ul><li>Sub-program (fungsi)<li>Fungsi *built-in* dalam Python<li>Manipulasi file eksternal<li>Modularitas<li>Gaya dan standar pemrograman dalam Python</ul>|<ul><li>[Python built-in functions](https://docs.python.org/3/library/functions.html) (Berdasarkan versi Python termutakhir)<li>[Case Style: Camel, Pascal, Snake, and Kebab case](https://betterprogramming.pub/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841) (Rekomendasi: buka alamat dalam mode privasi)</ul>
-|[Slide Materi]()||
+|<ul><li>*List* atau *array*<li>Tupel<li>Himpunan<li>Kamus</ul>|<ul><li>[Modul built-in Python](https://docs.python.org/3/py-modindex.html)<li>[Mekanisme `import` modul dalam Python](https://docs.python.org/3/reference/import.html)</ul>|
 
+<!--
 ### Modul 2: Kelas dan Objek
 
 > *Pertemuan 4 - Minggu 04* <br/>
@@ -134,7 +135,6 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
 
-<!--
 |<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
 |<ul><li>Pengujian program<li>Pengujian otomatis `unit-test`</ul>|<ul><li>ref 1</ul>
@@ -154,17 +154,20 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 > **Jadwal**: 13 April 2022 <br/>
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
--->
 
 |<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
 |<ul><li>Pola desain aplikasi<li>*Strategy pattern*<li>*Observer pattern*<li>*Decorator pattern*<li>*State pattern*<li>*Template pattern*<li>*Singleton pattern*</ul>|<ul><li>ref 1</ul>
 |[Slide Materi]()||
 
+-->
+
+---
+
 ## Proyek Akhir dan Praktikum
 
-* [Deskripsi Proyek Akhir]()
-* [Modul Praktikum]()
+* Deskripsi Proyek Akhir
+* Modul Praktikum
 
 ## Komposisi Penilaian
 
