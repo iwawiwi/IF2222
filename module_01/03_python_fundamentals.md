@@ -6,7 +6,7 @@
 passw = input("Masukkan password: ") 
 real_passw = "p45sw0rdR4ha51a!" 
 
-while pwd != real_pwd:
+while passw != real_passw:
     print("Password tidak sesuai :(")
     passw = input("Masukkan password: ")
 

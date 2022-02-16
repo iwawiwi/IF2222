@@ -6,17 +6,19 @@
 passw = input("Masukkan password: ")
 real_passw = "p45sw0rdR4ha51a!"
 
-if pwd == real_pwd:
+if passw == real_passw:
   print("OK :)")
 else:
   print("Password tidak sesuai :(")
 ```
 
+Perhatikan indentasi dalam Python menyatakan blok program.
+
 ## Percabangan `IF`
 
 ```Python
 x = input("Masukan nilai x: ")
-if (x >= 0):
+if (x > 0):
     print("x bilangan positif")
 ```
 
@@ -24,7 +26,7 @@ if (x >= 0):
 
 ```Python
 x = input("Masukan nilai x: ")
-if (x >= 0):
+if (x > 0):
     print("x bilangan positif")
 else:
     print("x bilangan negatif")

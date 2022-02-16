@@ -59,10 +59,10 @@ Fungsi-fungsi dalam list
 daftar_kegiatan = ["sarapan", "mandi", "belajar"]
 
 print(daftar_kegiatan.index("belajar")) # 2
-print(todos.pop())  # belajar
-print(todos)        # ["sarapan", "mandi"]
-todos.append("kuliah")                  
-print(todos)        # ["sarapan", "mandi", "kuliah"]
+print(daftar_kegiatan.pop())  # belajar
+print(daftar_kegiatan)        # ["sarapan", "mandi"]
+daftar_kegiatan.append("kuliah")                  
+print(daftar_kegiatan)        # ["sarapan", "mandi", "kuliah"]
 
 daftar_kegiatan.reverse()
 print(daftar_kegiatan) # ["kuliah", "mandi", "sarapan"]
