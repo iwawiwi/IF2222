@@ -75,3 +75,47 @@ print(bola2.get_material())     # 'Kulit'
 ```
 
 Definisi konstanta secara `static` sebelumnya juga dapat diakomodir dengan menggunakan `enum`. Lebih lanjut mengenai `enum` dapat dilihat pada [dokumentasi Python](https://docs.python.org/3/library/enum.html).
+
+## Eksperimen menarik terkait atribut `static`
+
+Simpan kode berikut dalam file `bola.py`.
+
+```Python
+class BolaStatic:
+    jumlah_bola = 0
+
+    def __init__(self, warna, jarijari):
+        self.warna = warna
+        self.jarijari = jarijari
+        BolaStatic.jumlah_bola += 1
+
+    def get_volume(self):
+        return (4 / 3) * 3.14 * (self.jarijari ** 3)
+
+    def get_jumlah_bola():
+        return BolaStatic.jumlah_bola
+```
+
+Simpan kode berikut dalam file `bola_main.py`
+
+```Python
+# experiment with static
+from bola import BolaStatic
+
+bola3 = BolaStatic("Merah", 4)
+bola4 = BolaStatic("Hijau", 3)
+
+# variabel static pada tiap objek merujuk pada alamat memori yang sama
+print(BolaStatic.jumlah_bola)       # 2
+print(id(BolaStatic.jumlah_bola))   # 139918172932432
+print(id(bola3.jumlah_bola))        # 139918172932432
+print(id(bola4.jumlah_bola))        # 139918172932432
+
+# Coba akses variabel static dari objek dan assign sebuah nilai baru
+# variabel jumlah_bola menjadi object variable
+bola3.jumlah_bola = 0 
+# id variabel berbeda
+print(id(bola3.jumlah_bola))        # 139918172932368
+# variabel static tidak berpengaruh
+print(BolaStatic.jumlah_bola)
+```
