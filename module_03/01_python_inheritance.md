@@ -71,7 +71,7 @@ Perhatikan potongan kode sebelumnya, untuk menerapkan prinsip pewarisan dalam ba
 
 ```Python
 class Kucing(Hewan):
-    ...
+    # konstruktor dan method
 ```
 
 Implementasi konstruktor pada subclass juga harus disesuaikan untuk menerapkan konsep pewarisan. Ekspresi `super.__init__(...)` menyatakan bahwa saat membuat objek (misalnya `Kucing`) terlebih dahulu memanggil konstruktor ***parent-class*** (dalam hal ini kelas `Hewan`). Dalam OOP, kata kunci `super` biasanya merujuk pada ***parent-class***.
