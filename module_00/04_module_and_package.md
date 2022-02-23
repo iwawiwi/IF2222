@@ -195,8 +195,9 @@ Dalam contoh berikut ini kita menggunakan kasus yang sama seperti kasus yang ter
 ```Python
 # kode dalam file root_module/paket_a/driver_b.py
 
-import .modul_b as modul_b              # modul_b satu level dengan driver_b
-import ..paket_ba.modul_d as modul_d    # letak modul_d relatif terhadap driver_b 
+# dengan import relatif, bentuk import dalam format from ... import ...
+from . import modul_b as modul_b                    # modul_b satu level dengan driver_b
+from ..paket_b.paket_ba import modul_d as modul_d   # # letak modul_d relatif terhadap driver_b
 
 x = modul_b.tambah(10,5)        # x = 10+5 = 15
 print(x)
