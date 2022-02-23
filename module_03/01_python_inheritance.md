@@ -108,7 +108,7 @@ kitty.tambah_umur() # umur kitty bertambah dari 3 menjadi 4
 print("{:s} bertambah tua! Umur {:s} sekarang {:d} tahun.".format(kitty.nama, kitty.nama, kitty.umur)) 
 ```
 
-## Materi Tambahan
+## Eksperimen menarik
 
 Apa jadinya jika pada konstruktor *child-class* tidak memanggil konstruktor *parent-class* dengan kata kunci `super()`?
 
@@ -137,3 +137,31 @@ print(kitty.umur)   # 5
 ```
 
 Ternyata kita dapat membuat objek `Kucing` dengan atribut yang diharapkan. Perhatikan bahwa untuk proses instansiasi objek, kita perlu menspesifikasikan semua atribut yang ada pada *parent-class* yaitu `Kitty(nama, umur, bisa_terbang)` meskipun secara eksplisit kita tidak menulis implementasinya pada kelas `Kucing`. Sesuai konsep pewarisan, fungsi `tambah_umur()` dapat diakses pada objek `kitty`.
+
+Lalu apa jadinya kalau kita tidak menspesifikasikan atribut pada konstruktor `Kucing` seperti berikut ini? Ini tentu akan menghasilkan pesan kesalahan.
+
+```Python
+kitty = Kucing()        # Tidak bisa membuat objek: ERROR konstruktor
+```
+
+Anda bisa mencoba sendiri untuk eksperimen lainnya. Contoh nya seperti berikut ini. Apa jadinya kalau kita mendefinisikan konstruktor di kelas kucing seperti berikut ini?
+
+```Python
+class Kucing(Hewan):
+    def __init__(self):
+        pass
+
+kitty = Kucing()
+```
+
+atau kondisi berikut
+
+```Python
+class Kucing(Hewan):
+    def __init__(self, nama, umur, bisa_terbang):
+        pass
+
+kitty = Kucing("Kitty", 4, False)
+```
+
+Apa yang dapat anda simpulkan?
