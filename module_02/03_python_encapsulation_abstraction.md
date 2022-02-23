@@ -1,4 +1,6 @@
-# Enkapsulasi dan Abstraksi dalam Python
+# Abstraksi Data dalam Python (2)
+
+## Enkapsulasi dan Abstraksi dalam Python
 
 Penerapan enkapsulasi sebenarnya secara tidak langsung telah dibahas pada materi tentang [kelas dan objek](01_python_class_and_object.md). Dalam mendefinisikan sebuah kelas, kita menerapkan konsep enkapsulasi. Konsep enkapsulasi merujuk kepada menyatukan atribut-atribut dan fungsi-fungsi terkait sebuah data kedalam satu unit yang dinamakan kelas.
 

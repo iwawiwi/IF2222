@@ -96,7 +96,7 @@ class BolaStatic:
         return BolaStatic.jumlah_bola
 ```
 
-Simpan kode berikut dalam file `bola_main.py`
+Simpan kode berikut dalam file `bola_main.py`. Lalu jalankan pada console dan lihat hasilnya. Apa yang dapat disimpulkan?
 
 ```Python
 # experiment with static

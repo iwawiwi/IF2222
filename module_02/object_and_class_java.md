@@ -1,4 +1,4 @@
-# Mutable and Immutable Object
+# Mutable and Immutable Object dalam Java
 
 Objek yang *immutable* merupakan objek yang konten atau propertinya tidak dapat diubah setelah objek dibuat. Objek yang *immutable* dibangun dari kelas yang juga bersifat *immutable*. Contoh, kelas `String` adalah kelas yang *immutable*. Objek `String` juga merupakan objek *immutable*.
 
