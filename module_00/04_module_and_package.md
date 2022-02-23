@@ -26,7 +26,7 @@ Dalam Python, import modul secara absolut dapat dilakukan dengan menuliskan seca
 
 - Direktori kerja (atau lokasi main program) saat ini;
 - Direktori yang terdaftar pada variabel PYTHONPATH pada lingkungan sistem operasi; dan
-- Direktori terkait saat proses instalasi dan konfigurasi Python pertama kali. 
+- Direktori terkait saat proses instalasi dan konfigurasi Python pertama kali.
 (Sumber: [RealPython](https://realpython.com/python-modules-packages/#the-module-search-path) gunakan mode privasi untuk akses halaman tak terbatas)
 
 Cara melihat daftar lokasi pencarian modul (**kecuali direktori kerja saat ini**):
