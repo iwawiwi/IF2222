@@ -81,7 +81,7 @@ class Child(Parent):
     ...
 ```
 
-Implementasi konstruktor pada subclass juga harus disesuaikan untuk menerapkan konsep pewarisan. Ekspresi `super().__init__(...)` menyatakan bahwa saat membuat objek (misalnya `Kucing`) terlebih dahulu memanggil konstruktor ***parent-class*** (dalam hal ini kelas `Hewan`). Dalam OOP, kata kunci `super` merujuk pada ***parent-class***, baik itu merupakan konstruktor ataupun juga method/fungsi yang ada pada *parent-class*.
+Implementasi konstruktor pada subclass juga harus disesuaikan untuk menerapkan konsep pewarisan. Ekspresi `super().__init__(...)` menyatakan bahwa saat membuat objek (misalnya `Kucing`) terlebih dahulu memanggil konstruktor ***parent-class*** (dalam hal ini kelas `Hewan`). Dalam OOP, kata kunci `super` merujuk pada ***parent-class***, baik itu merupakan konstruktor ataupun juga method/fungsi yang ada pada *parent-class*. Selain menggunakan kata kunci `super()`, kita juga dapat memanggil konstruktor dari *parent-class* dengan menggunakan format `ParentClassName.__init__(arg1, arg2, ...)`.
 
 ```Python
 h = Hewan("Hewan", 6, True)
@@ -106,6 +106,42 @@ kitty.tambah_umur() # umur kitty bertambah dari 3 menjadi 4
 
 # Mencetak 'Kitty bertambah tua! Umur Kitty sekarang 4 tahun.'
 print("{:s} bertambah tua! Umur {:s} sekarang {:d} tahun.".format(kitty.nama, kitty.nama, kitty.umur)) 
+```
+
+## Apakah *child-class* boleh memiliki fungsi tambahan yang tidak terdapat pada *parent-class*?
+
+Jawabannya tentu saja boleh! Anggap saja bahwa dalam PBO kelas anak akan mewarisi semua ciri dan perilaku orang-tuanya. Namun, anak juga bisa mempunyai ciri dan bakat tambahan lainnya yang tidak dimiliki oleh orang-tuanya. Contoh:
+
+```Python
+class BentukSegiEmpat:
+    def __init__(self, a, b, c, d):
+        self.sisi_1 = a
+        self.sisi_2 = b
+        self.sisi_3 = c
+        self.sisi_4 = d
+    
+    def get_keliling(self):
+        return self.sisi_1 + self.sisi_2 + self.sisi_3 + self.sisi_4
+
+class PersegiPanjang(BentukSegiEmpat):
+    def __init__(self, a, b):
+        super().__init__(a, b, a, b)
+
+    # menghitung luas persegi panjang
+    def get_luas(self):
+        return self.sisi_1 * self.sisi_2
+
+class Persegi(PersegiPanjang):
+    def __init__(self, a):
+        super().__init__(a, a)
+    
+    # menghitung luas persegi
+    def get_luas(self):
+        return self.sisi_1 ** 2
+
+persegi_1 = Persegi(3)
+print(persegi_1.get_luas())     # 9
+print(persegi_1.get_keliling()) # 12
 ```
 
 ## Eksperimen menarik

@@ -1,6 +1,6 @@
 # Abstraksi Data dalam Python (2)
 
-## Enkapsulasi dan Abstraksi dalam Python
+## Enkapsulasi dan abstraksi data dalam Python
 
 Penerapan enkapsulasi sebenarnya secara tidak langsung telah dibahas pada materi tentang [kelas dan objek](01_python_class_and_object.md). Dalam mendefinisikan sebuah kelas, kita menerapkan konsep enkapsulasi. Konsep enkapsulasi merujuk kepada menyatukan atribut-atribut dan fungsi-fungsi terkait sebuah data kedalam satu unit yang dinamakan kelas.
 
@@ -29,7 +29,7 @@ print(tgl_sekarang.to_string())         # 19 / 02 / 2022
 
 Dalam membuat kelas `Kalender` kita melakukan **enkapsulasi** terhadap atribut `tanggal`, `bulan`, `tahun` dan fungsi `get_nama_bulan`, `to_string` kedalam sebuah kelas yang merepresentasikan tanggal dalam sistem kalender masehi.
 
-Kita juga menerapkan konsep abstraksi dalam fungsi `get_nama_bulan` dan `to_string`. Pada fungsi `get_nama_bulan`, kita menyembunyikan detail bagaimana cara konversi dari urutan bulan (`int`) menjadi `str` nama bulan yang sesuai. Kita yakin bahwa memanggil fungsi `get_nama_bulan` pada objek yang `tgl_sekarang` akan memgembalikan nama bulan dalam tipe data `str`. Begitu pula dengan fungsi `to_string`, kita yakin bahwa dengan memanggil fungsi tersebut akan mendapatkan format penulisan tanggal dalam tipe data `str`. Dengan konsep abstraksi ini, kita dapat menggunakan bagian program lain dalam aplikasi yang telah kita buat (prinsip *reusable*) tanpa perlu kembali mendefinisikan kembali program yang serupa.
+Kita juga menerapkan konsep **abstraksi data** dalam fungsi `get_nama_bulan` dan `to_string`. Pada fungsi `get_nama_bulan`, kita menyembunyikan detail bagaimana cara konversi dari urutan bulan (`int`) menjadi `str` nama bulan yang sesuai. Kita yakin bahwa memanggil fungsi `get_nama_bulan` pada objek `tgl_sekarang` akan memgembalikan nama bulan yang sesuai dalam tipe data `str` untuk objek `tgl_sekarang` (sesuai contoh: `"Feb"`). Begitu pula dengan fungsi `to_string`, kita yakin bahwa dengan memanggil fungsi tersebut akan mendapatkan format penulisan tanggal dalam tipe data `str`. Dengan konsep abstraksi ini, kita dapat menggunakan bagian program lain dalam aplikasi yang telah kita buat (prinsip *reusable*) tanpa perlu kembali mendefinisikan kembali program yang serupa.
 
 ## Hak akses variabel dan fungsi dalam Python
 
