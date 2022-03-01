@@ -41,9 +41,11 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 
 > *Pertemuan 1 - Minggu 01* <br/>
 > **Jadwal**: 2 Februari 2022 <br/>
+<!--
 > **Slide Materi**: [link](https://itera542-my.sharepoint.com/:b:/g/personal/alyarizkita_itera542_onmicrosoft_com/EZXdQJf3-IlGrOsj60cVsDsB2ltgoH_tEPBpuFbwyZX02w?e=ZVwtNv)<br />
 > **Video Perkuliahan**: [link](https://classroom.google.com/u/0/w/NDYzNTUzOTY1Mjkz) <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link](https://forms.office.com/r/7imKMsgHyz) <br />
+-->
 
 |<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
@@ -53,9 +55,11 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 
 > *Pertemuan 2 - Minggu 02* <br/>
 > **Jadwal**: 9 Februari 2022 <br/>
+<!--
 > **Slide Materi**: [link](https://1drv.ms/b/s!AkmVWKOTJpCNgdxUkUdHj1Ah4ZW4ag?e=eQzqg5)
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
+-->
 
 |<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
@@ -63,44 +67,53 @@ Mata kuliah ini membahas konsep, desain, dan implementasi program dengan paradig
 
 > *Pertemuan 3 - Minggu 03* <br/>
 > **Jadwal**: 16 Februari 2022 <br/>
+<!--
 > **Slide Materi**: [link](https://1drv.ms/b/s!AkmVWKOTJpCNgdxVwR_BBSaIgALm6w?e=J4zfn5)
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
+-->
 
 |<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
 |<ul><li>*List* atau *array*<li>Tupel<li>Himpunan<li>Kamus</ul>|<ul><li>[Modul built-in Python](https://docs.python.org/3/py-modindex.html)<li>[Mekanisme `import` modul dalam Python](https://docs.python.org/3/reference/import.html)</ul>|
 
-<!--
 ### Modul 2: Kelas dan Objek
 
 > *Pertemuan 4 - Minggu 04* <br/>
 > **Jadwal**: 23 Februari 2022 <br/>
+
+<!--
+> **Slide Materi**: [link]()
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
+-->
 
 |<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
-|<ul><li>Konsep objek dan kelas dalam Python<li>Konstruktor<li>*Object instance*<li>Modularitas</ul>|<ul><li>ref 1</ul>
-|[Slide Materi]()||
+|<ul><li>Konsep objek dan kelas dalam Python<li>Konstruktor<li>*Object instance*<li>Modularitas</ul>|<ul><li>[Menghapus sebuah objek dalam python](https://www.programiz.com/python-programming/class)<li>[Latihan membuat kelas - W3schools](https://www.w3schools.com/python/exercise.asp?filename=exercise_classes1)</ul>|
 
 > *Pertemuan 5 - Minggu 05* <br/>
 > **Jadwal**: 2 Maret 2022 <br/>
+<!--
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
+-->
 
 |<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
-|<ul><li>Enkapsulasi<li>Visibilitas fungsi dan variabel</ul>|<ul><li>ref 1</ul>
+|<ul><li>Enkapsulasi<li>Visibilitas fungsi dan variabel<li>Relasi antar objek</ul>|<ul><li>[Private attribute](https://www.pythontutorial.net/python-oop/python-private-attributes/)<li>[Asosiasi-Agregasi-Komposisi dan UML Class diagramnya](https://www.guru99.com/association-aggregation-composition-difference.html)</ul>
 |[Slide Materi]()||
 
 ### Modul 3: Pewarisan dan Polimorfisme
 
 > *Pertemuan 6 - Minggu 06* <br/>
 > **Jadwal**: 9 Maret 2022 <br/>
+<!--
 > **Video Perkuliahan**: [link]() <br />
 > **Refleksi Pembelajaran Mahasiswa**: [link]() <br />
+-->
 
+<!--
 |<div style="width:350px">Topik Pembahasan</div>|<div style="width:450px">Referensi Tambahan</div>|
 |---|---|
 |<ul><li>Konsep pewarisan atau *inheritance*<li>*Multiple inheritance* dalam Python<li>Abstraksi</ul>|<ul><li>ref 1</ul>
