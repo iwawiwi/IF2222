@@ -21,18 +21,6 @@ def myFun(*argv):
 myFun('Hello', 'Welcome', 'to', 'GeeksforGeeks')
 ```
 
-Example #2
-
-```Python
-# Python program to illustrate 
-# *args for variable number of arguments
-def myFun(*argv):
-    for arg in argv:
-        print (arg)
-   
-myFun('Hello', 'Welcome', 'to', 'GeeksforGeeks')
-```
-
 ## `**kwargs`
 
 The special syntax `**kwargs` in function definitions in python is used to pass a keyworded, variable-length argument list. We use the name `kwargs` with the double star. The reason is because the double star allows us to pass through keyword arguments (and any number of them).
