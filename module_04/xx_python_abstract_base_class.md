@@ -33,5 +33,3 @@ Mungkin ada pertanyaan, mengapa kita tidak membuat saja kelas `Employee` yang ju
 
 * Pewarisan memodelkan hubungan `adalah`. Contohnya, kelas `Customer` dapat juga memiliki atribut `id` dan `name`. Namun, `Customer` **bukan** `Employee`, sehingga tidak tepat jika `Customer` mewarisi `Employee`.
 * Ketika kita ingin menggunakan kembali implementasi kelas yang sudah pernah dibuat kedalam bagian program dalam aplikasi, kita hanya perlu mewarisi kelas basis dan melakukan implementasi fungsi dan atribut yang dibutuhkan saja. Kelas basis tidak perlu didefinisikan kembali.
-
-Jika

@@ -73,7 +73,7 @@ print(fungsi_linear(2, 3, 1))   # 7
 
 > Ingat kembali bahwa fungsi linear dalam matematika berbentuk seperti berikut `f(x) = ax + b`; [Referensi](https://en.wikipedia.org/wiki/Linear_function)
 
-Fungsi `fungsi_linear()` dapat dipanggil dengan menspesifikasikan minimal 2 argumen yaitu `a` dan `x`. Secara implisit, jika argumen `b` tidak diberikan pada pemanggilan fungsi ini, nilai `b` yang dioperasikan pada tubuh fungsi adalah `b=0` atau nilai kembalian fungsi menjadi `ax`. Namun, fungsi ini juga dapat dipanggil dengan menspesifikasikan 3 argumen, yaitu dengan menambahkan argumen `b` pada pemangilan fungsi sehingga nilai kembalian fungsi menjadi `ax + b`. 
+Fungsi `fungsi_linear()` dapat dipanggil dengan menspesifikasikan minimal 2 argumen yaitu `a` dan `x`. Secara implisit, jika argumen `b` tidak diberikan pada pemanggilan fungsi ini, nilai `b` yang dioperasikan pada tubuh fungsi adalah `b=0` atau nilai kembalian fungsi menjadi `ax`. Namun, fungsi ini juga dapat dipanggil dengan menspesifikasikan 3 argumen, yaitu dengan menambahkan argumen `b` pada pemangilan fungsi sehingga nilai kembalian fungsi menjadi `ax + b`.
 
 Teknik pendefinisian fungsi semacam ini dinamakan sebagai ***overloading*** sebuah fungsi, dimana sebuah fungsi dengan nama yang sama dapat menerima satu atau lebih argumen. Setiap pemanggilan fungsi dengan spesifikasi parameter tertentu dapat kita implementasikan tersendiri. Hal ini memungkinkan sebuah fungsi dapat memiliki perilaku yang berbeda untuk setiap spesifikasi pemanggilan fungsi.
 
