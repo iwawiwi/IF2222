@@ -1,6 +1,6 @@
 # Python Abstract Base Class
 
-Sebelumnya pada materi [enkapsulasi](../module_02/03_python_encapsulation_abstraction.md) kita sudah pernah membahas mengenai abstraksi data. Secara umum, konsep abstraksi ini tidak hanya 
+Sebelumnya pada materi [enkapsulasi](../module_02/03_python_encapsulation_abstraction.md) kita sudah pernah membahas mengenai abstraksi data. Secara umum, konsep abstraksi ini tidak hanya dapat diterapkan untuk melakukan abstraksi data. Kali ini kita akan membahas konsep abstraksi di tingkat kelas dan objek.
 
 Konsep abstraksi dalam OOP dalam bahasa pemrograman Java dan C++ dapat dimungkinkan dengan adanya kelas yang bersifat abstrak. Dalam bahasa pemrograman Java, kelas abstrak merupakan kelas yang tidak dapat dibuat objeknya. Dalam bahasa pemrograman Python, kita juga dapat melakukan hal yang serupa dengan mewarisi kelas **ABC (*Abstract Base Class*)**.
 
@@ -68,11 +68,6 @@ class SegitigaSikuSiku(Bentuk2D):
 
 class Lingkaran(Bentuk2D):
     pass
-
-bentuk = Bentuk2D()
-persegi_panjang = PersegiPanjang(2, 4)
-segitiga = SegitigaSikuSiku(2, 4)
-lingkaran = Lingkaran(10)
 ```
 
 Kelas abstrak tidak dapat dibuat objeknya atau tidak dapat diinstansiasi.
